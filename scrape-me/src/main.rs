@@ -125,7 +125,50 @@ fn multi_page_scraper() {
 	}
 }
 
+fn headless_scraper() {
+	let mut pokemon_products: Vec<PokemonProduct> = Vec::new();
+
+	let browser = headless_chrome::Browser::default().unwrap();
+	let tab = browser.new_tab().unwrap();
+	tab.navigate_to("https://scrapeme.live/shop/").unwrap();
+
+	let html_products = tab.wait_for_elements("li.product").unwrap();
+
+	for html_product in html_products {
+		// scraping logic...
+		let url = html_product
+			.wait_for_element("a")
+			.unwrap()
+			.get_attributes()
+			.unwrap()
+			.unwrap()
+			.get(1)
+			.unwrap()
+			.to_owned();
+		// let image = html_product
+		//     .wait_for_element("img")
+		//     .unwrap()
+		//     .get_attributes()
+		//     .unwrap()
+		//     .unwrap()
+		//     .get(5)
+		//     .unwrap()
+		//     .to_owned();
+		let name = html_product.wait_for_element("h2").unwrap().get_inner_text().unwrap();
+		let price = html_product.wait_for_element(".price").unwrap().get_inner_text().unwrap();
+		let pokemon_product =
+			PokemonProduct { url: Some(url), image: None, name: Some(name), price: Some(price) };
+
+		pokemon_products.push(pokemon_product);
+	}
+
+	for pokemon_product in pokemon_products {
+		println!("{:?}", pokemon_product);
+	}
+}
+
 fn main() {
 	single_page_scraper();
 	multi_page_scraper();
+	headless_scraper();
 }
