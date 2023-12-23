@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "scrape-me",
+]
+resolver = "2"
