@@ -16,6 +16,12 @@ web scraper tools only for personal usage
 
 * <https://www.zenrows.com/blog/rust-web-scraping#rust-web-crawling>
 
+## Content cleaner
+
+* <https://jina.ai/>
+* <https://github.com/jina-ai/reader> - Mozilla readability library
+* <https://github.com/mendableai/firecrawl>
+
 ## APIs
 
 * <https://apewisdom.io/api/>
