@@ -20,8 +20,12 @@ web scraper tools only for personal usage
 
 * <https://jina.ai/>
 * <https://github.com/jina-ai/reader> - Mozilla readability library
-* <https://github.com/mendableai/firecrawl>
+* <https://github.com/mendableai/firecrawl> - <https://www.firecrawl.dev/>
 
 ## APIs
 
 * <https://apewisdom.io/api/>
+
+## Paid API service
+
+* <https://devapi.ai/docs>
