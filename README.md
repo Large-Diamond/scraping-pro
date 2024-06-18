@@ -29,3 +29,7 @@ web scraper tools only for personal usage
 ## Paid API service
 
 * <https://devapi.ai/docs>
+
+## Search Engine
+
+* <https://github.com/StractOrg/stract> - Rust search engine + crawler
