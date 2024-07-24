@@ -12,6 +12,10 @@ web scraper tools only for personal usage
 * <https://github.com/Y2Z/monolith> - download webpage as a single html
 * <https://markdowndown.vercel.app/> - convert webpage to markdown
 
+## Python scraper
+
+* <https://github.com/VinciGit00/Scrapegraph-ai> - scraper + LLM
+
 ## Docs
 
 * <https://www.zenrows.com/blog/rust-web-scraping#rust-web-crawling>
