@@ -11,6 +11,7 @@ web scraper tools only for personal usage
 * <https://twspace-dl.tools.ryusei.io/> - x space downloader
 * <https://github.com/Y2Z/monolith> - download webpage as a single html
 * <https://markdowndown.vercel.app/> - convert webpage to markdown
+* <https://github.com/noahfraiture/coma> - cli for scraper
 
 ## Python scraper
 
@@ -19,6 +20,7 @@ web scraper tools only for personal usage
 ## Docs
 
 * <https://www.zenrows.com/blog/rust-web-scraping#rust-web-crawling>
+* <https://dev.to/adaschevici/rustify-some-puppeteer-code-3n33>
 
 ## Content cleaner
 
