@@ -39,3 +39,7 @@ web scraper tools only for personal usage
 ## Search Engine
 
 * <https://github.com/StractOrg/stract> - Rust search engine + crawler
+
+## Audio/Video tools
+
+* <https://ffmpeg.lav.io/> - ffmpeg explorer - <https://lav.io/notes/ffmpeg-explorer/>
