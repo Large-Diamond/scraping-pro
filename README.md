@@ -12,6 +12,8 @@ web scraper tools only for personal usage
 * <https://github.com/Y2Z/monolith> - download webpage as a single html
 * <https://markdowndown.vercel.app/> - convert webpage to markdown
 * <https://github.com/noahfraiture/coma> - cli for scraper
+* <https://github.com/devflowinc/firecrawl-simple> - convert any website into LLM-ready markdown
+* <https://pdf2md.trieve.ai/> - pdf to LLM-ready markdown
 
 ## Python scraper
 
