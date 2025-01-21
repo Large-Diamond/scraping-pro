@@ -45,3 +45,19 @@ web scraper tools only for personal usage
 ## Audio/Video tools
 
 * <https://ffmpeg.lav.io/> - ffmpeg explorer - <https://lav.io/notes/ffmpeg-explorer/>
+
+## Anti Bot Detection / waf bypass
+
+* <https://medium.com/@darshankhandelwal12/5-best-web-scraping-tools-ranked-by-performance-stability-price-b3a177516b58>
+* <https://rebrowser.net/>
+* <https://www.zenrows.com/blog>
+* <https://www.scrapeless.com>
+* <https://scrapeops.io/docs/web-scraping-proxy-api-aggregator/advanced-functionality/anti-bot-bypass/>
+* <https://www.scrapingdog.com/>
+* <https://www.scraperapi.com/>
+* <https://www.scrapingbee.com/>
+* <https://scrape.do/>
+
+## Headless browser
+
+* <https://github.com/lightpanda-io/browser>
