@@ -46,6 +46,10 @@ web scraper tools only for personal usage
 
 * <https://ffmpeg.lav.io/> - ffmpeg explorer - <https://lav.io/notes/ffmpeg-explorer/>
 
+## Chrome extension
+
+* <https://github.com/dream-num/univer-clipsheet>
+
 ## Anti Bot Detection / waf bypass
 
 * <https://medium.com/@darshankhandelwal12/5-best-web-scraping-tools-ranked-by-performance-stability-price-b3a177516b58>
